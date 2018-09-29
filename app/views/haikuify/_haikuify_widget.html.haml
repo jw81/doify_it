@@ -1,5 +1,9 @@
 #haiku-widget
+  %h2
+    = 'Haikuify It'
+
   %button{ id: 'haikuify-it-btn', name: 'Haikuify It', data: { target: '#haiku-text', path: haikuify_ajax_path } }
     = 'Haikuify It'
+    
   #haiku-text
     = render partial: 'haikuify_text'

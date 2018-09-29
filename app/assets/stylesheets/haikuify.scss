@@ -23,6 +23,8 @@ body {
     display:block;
     font-family: $font-stack;
     font-size: 1em;
+    border-radius: 5px;
+    background: aquamarine;
   }
 
   #haiku-text {

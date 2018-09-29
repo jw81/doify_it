@@ -34,6 +34,7 @@ gem 'jbuilder', '~> 2.5'
 # Stuff I've Added
 gem 'haikunator', '~> 1.1'
 gem 'haml-rails', '~> 1.0'
+gem 'jquery-rails', '~> 4.3.3'
 
 
 # Reduces boot times through caching; required in config/boot.rb

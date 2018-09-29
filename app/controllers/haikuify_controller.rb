@@ -3,6 +3,6 @@ class HaikuifyController < ApplicationController
   end
 
   def ajax
-    render partial: 'haiku'
+    render partial: 'haikuify_text'
   end
 end

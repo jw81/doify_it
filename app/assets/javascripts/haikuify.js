@@ -1,6 +1,6 @@
 $( document ).on('turbolinks:load', function() {
 
-    $('#Haikuify-Me').click(function(){
+    $('#haikuify-it-btn').click(function(){
       loadHaiku(this);
     })
 

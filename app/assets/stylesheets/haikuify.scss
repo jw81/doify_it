@@ -2,6 +2,13 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+$font-stack:    'Abel', 'sans-serif';
+
+body {
+  font-family: $font-stack;
+  font-size: 20px;
+}
+
 #haiku-widget {
   margin: auto;
   width: 20em;
@@ -14,6 +21,8 @@
   #haikuify-it-btn {
     margin:0 auto;
     display:block;
+    font-family: $font-stack;
+    font-size: 1em;
   }
 
   #haiku-text {

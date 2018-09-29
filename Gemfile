@@ -32,7 +32,9 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 # Stuff I've Added
+gem 'haikunator', '~> 1.1'
 gem 'haml-rails', '~> 1.0'
+
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false

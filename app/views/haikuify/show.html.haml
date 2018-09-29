@@ -1,3 +1,5 @@
-%button{ id: 'Haikuify-Me', name: 'Haikuify Me' }
+%button{ id: 'Haikuify-Me', name: 'Haikuify Me', data: { target: '#haiku-container' } }
   = 'Haikuify Me'
-= Haikunator.haikunate
+
+#haiku-container
+  = Haikunator.haikunate

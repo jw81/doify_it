@@ -1,13 +1,18 @@
 $( document ).on('turbolinks:load', function() {
 
     $('#Haikuify-Me').click(function(){
-      doIt(this);
+      loadHaiku(this);
     })
 
 })
 
-function doIt(element){
-  var target_data_attribute = $(element).data('target');
-  var target_element = $(target_data_attribute);
-  target_element.html('Hello World');
+
+function loadHaiku(element){
+  var event_element = $(element);
+  var path = event_element.data('path');
+  var target_element = $(event_element.data('target'));
+
+  $.get(path, function(data){
+    target_element.html(data);
+  });
 }

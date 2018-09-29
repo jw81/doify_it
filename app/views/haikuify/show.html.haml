@@ -1,5 +1,5 @@
-%button{ id: 'Haikuify-Me', name: 'Haikuify Me', data: { target: '#haiku-container' } }
+%button{ id: 'Haikuify-Me', name: 'Haikuify Me', data: { target: '#haiku-container', path: haikuify_ajax_path } }
   = 'Haikuify Me'
 
 #haiku-container
-  = Haikunator.haikunate
+  = render partial: 'haiku'

@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   root 'static_pages#home'
 
   get 'haikuify', to: 'haikuify#show'
+  get 'haikuify_ajax', to: 'haikuify#ajax'
 end

@@ -1,11 +1,13 @@
 $( document ).on('turbolinks:load', function() {
 
     $('#Haikuify-Me').click(function(){
-      doIt();
+      doIt(this);
     })
 
 })
 
-function doIt(){
-  console.log('Yay JQuery is working!!!');
+function doIt(element){
+  var target_data_attribute = $(element).data('target');
+  var target_element = $(target_data_attribute);
+  target_element.html('Hello World');
 }

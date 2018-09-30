@@ -2,8 +2,7 @@
   %h2
     = 'Haikuify It'
 
-  %button{ id: 'haikuify-it-btn', name: 'Haikuify Me', data: { target: '#haiku-text', path: haikuify_ajax_path } }
-    = 'Haikuify Me'
+  = render partial: 'haikuify/haikuify_button'
 
   #haiku-text
-    = render partial: 'haikuify_text'
+    = render partial: 'haikuify/haikuify_text'

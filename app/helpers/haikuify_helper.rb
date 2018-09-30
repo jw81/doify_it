@@ -1,0 +1,2 @@
+module HaikuifyHelper
+end

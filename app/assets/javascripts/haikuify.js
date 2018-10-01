@@ -1,5 +1,8 @@
 $( document ).on('turbolinks:load', function() {
 
+    //provides the copy/paste functionality
+    var clipboard = new Clipboard('.clipboard-btn');
+
     $('#haikuify-it-btn').click(function(){
       loadHaiku(this);
     })

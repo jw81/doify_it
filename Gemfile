@@ -32,9 +32,11 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 # Stuff I've Added
-gem 'haikunator', '~> 1.1'
-gem 'haml-rails', '~> 1.0'
-gem 'jquery-rails', '~> 4.3.3'
+gem 'clipboard-rails', '~> 1.7.1'       #provides copy/paste functionality
+gem 'font-awesome-rails', '~> 4.7.0.4'  #provides access to FontAwesome icon library
+gem 'haikunator', '~> 1.1'              #provides the Haiku generation logic
+gem 'haml-rails', '~> 1.0'              #makes is easier to build HTML views
+gem 'jquery-rails', '~> 4.3.3'          #provides the JQuery library
 
 
 # Reduces boot times through caching; required in config/boot.rb

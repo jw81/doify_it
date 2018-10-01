@@ -29,8 +29,14 @@ body {
 
   #haiku-text {
     text-align: center;
-    width: 200px;
+    width: 300px;
     margin:0 auto;
     margin-top: 1em;
+  }
+
+  .clipboard-btn{
+    font-size: .8em;
+    border: none;
+    background: none;
   }
 }

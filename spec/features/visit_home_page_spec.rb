@@ -1,9 +1,15 @@
 require 'rails_helper'
 
-RSpec.feature 'Visit Homepage', type: :feature do
-  scenario 'User visits the homepage' do
-    visit '/'
+RSpec.feature 'Visiting The Homepage', type: :feature do
 
-    expect(page).to have_selector(:css, '#haiku-widget')
+  before(:each) do
+    visit '/'
   end
+
+  describe 'Displays the Widgets' do
+    it 'Displays the Haikuify Widget' do
+      expect(page).to have_selector(:css, '#haiku-widget')
+    end
+  end
+
 end
